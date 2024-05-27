@@ -1,0 +1,41 @@
+.advanced {
+  width: 100%;
+
+  &__logo {
+    position: relative;
+    top: -2.5rem;
+    left: 1rem;
+  }
+
+  &__label {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+  &__wrapper {
+    margin-top: 3rem;
+    width: 50%;
+    position: relative;
+    margin-left: 3rem;
+  }
+
+  &__input {
+    width: 70%;
+    padding: 0.35rem;
+    border: 1px solid #969ba1;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  &__button {
+    padding: 0.5rem;
+    background: #4d90fe;
+    color: white;
+    position: absolute;
+    right: 0;
+    border-radius: 2px;
+    border: none;
+  }
+}

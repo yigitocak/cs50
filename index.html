@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="styles/globals.css">
+</head>
+<body>
+<nav class="search-links">
+    <ul class="search-links__list">
+        <li class="search-links__item"><a class="search-links__link" href="advanced.html">Advanced Search</a></li>
+        <li class="search-links__item"><a class="search-links__link" href="image.html">Image Search</a></li>
+    </ul>
+</nav>
+<section class="form">
+    <form id="searchForm" action="https://www.google.com/search">
+        <div class="form__container">
+            <img class="form__logo" src="https://www.google.com.tr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"/>
+            <label class="form__label">
+                <input type="text" name="q" class="form__input">
+            </label>
+            <div class="form__button-container">
+                <input type="submit" value="Google Search" class="form__button">
+                <input type="submit" name="btnI" value="I'm feeling lucky!" class="form__button">
+            </div>
+        </div>
+    </form>
+</section>
+</body>
+</html>

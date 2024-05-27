@@ -1,0 +1,35 @@
+@use "./image.scss" as *;
+@use "./index.scss" as *;
+@use "./advanced.scss" as *;
+
+*,*:after,*:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: roboto-regular, arial, sans-serif;;
+}
+
+// style for nav element
+.search-links {
+  &__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  // styles for anchor element
+  &__link {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

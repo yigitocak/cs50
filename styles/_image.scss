@@ -1,0 +1,13 @@
+.form {
+  &__span {
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.35rem;
+    color: #4487f6;
+    font-size: 1rem;
+  }
+
+  &__logo-container {
+    position: relative;
+  }
+}

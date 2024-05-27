@@ -1,0 +1,60 @@
+//styles for form element
+.form {
+  display: flex;
+  width: 100%;
+  height: 63vh;
+  align-items: center;
+  justify-content: center;
+
+  // logo styling
+  &__logo {
+    display: block;
+  }
+
+  // search bar styling
+  &__input {
+    padding: 0.65rem;
+    border: 1px solid #c4c3c3;
+    outline: none;
+    border-radius: 25px;
+    width: 450px;
+    margin: 1rem;
+
+    &:hover {
+      box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    &:focus {
+      box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+      outline: none;
+    }
+  }
+
+  // buttons styling
+  &__button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #f8f9fa;
+    border-radius: 2px;
+    border: transparent 1px solid;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid #c4c3c3;
+    }
+  }
+
+  // buttons container styling
+  &__button-container {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  // form container styling
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
